@@ -1,0 +1,153 @@
+@font-face {
+  font-family: nunito;
+  src: url(../fonts/Nunito-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: nunito;
+  src: url(../fonts/Nunito-Italic.ttf);
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: nunito;
+  src: url(../fonts/Nunito-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: nunito;
+  src: url(../fonts/Nunito-Bold.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+:root {
+  --fondo: #251F24;
+  --titulos: #FFFFFF;
+  --parrafos: #A5A3A5;
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--fondo);
+}
+
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: Roboto;
+}
+
+.container h1 {
+  color: var(--titulos);
+  margin-bottom: 77px;
+  font-size: 64px;
+  font-style: bold;
+}
+
+.container h2 {
+  color: var(--titulos);
+  margin-bottom: 25px;
+  font-size: 29px;
+  font-style: bold;
+}
+
+.container p {
+  font-family: nunito;
+  color: var(--parrafos);
+  margin-bottom: 62px;
+  font-size: 18px;
+}
+
+.container img {
+  width: 100px;
+}
+
+/* Container-dos */
+
+.container-dos {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: Roboto;
+}
+
+.container-dos h1 {
+  color: var(--titulos);
+  margin-bottom: 77px;
+  font-size: 64px;
+  font-style: bold;
+}
+
+.container-dos h2 {
+  color: var(--titulos);
+  margin-bottom: 25px;
+  font-size: 29px;
+  font-style: bold;
+}
+
+.container-dos p {
+  font-family: nunito;
+  color: var(--parrafos);
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.container-dos span {
+  color: var(--titulos);
+  margin-right: 10px;
+}
+
+.container-dos .last-parrafo {
+  margin-bottom: 62px;
+}
+
+/* Container-tres */
+
+.container-tres {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: Roboto;
+}
+
+.container-tres h1 {
+  color: var(--titulos);
+  margin-bottom: 77px;
+  font-size: 64px;
+  font-style: bold;
+}
+
+.container-tres h2 {
+  color: var(--titulos);
+  margin-bottom: 25px;
+  font-size: 29px;
+  font-style: bold;
+}
+
+.container-tres p {
+  font-family: nunito;
+  color: var(--parrafos);
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.container-tres span {
+  color: var(--titulos);
+}
+
+.container-tres img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+
