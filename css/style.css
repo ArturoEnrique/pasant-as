@@ -45,8 +45,13 @@ body {
   font-family: Roboto;
 }
 
+.container span {
+  color: #295497;
+  font-style: bold;
+}
+
 .container h1 {
-  color: var(--titulos);
+  color: #E6E6E6;
   margin-bottom: 77px;
   font-size: 64px;
   font-style: bold;
